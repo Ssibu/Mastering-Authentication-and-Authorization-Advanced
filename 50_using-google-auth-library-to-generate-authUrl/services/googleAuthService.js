@@ -8,7 +8,7 @@ const redirectUrl = process.env.GOOGLE_REDIRECT_URL;
 const client = new OAuth2Client({
   clientId,
   clientSecret,
-  redirectUri: redirectUrl,
+  redirectUri: redirectUrl, 
 });
 
 export function generateGoogleAuthUrl() {
