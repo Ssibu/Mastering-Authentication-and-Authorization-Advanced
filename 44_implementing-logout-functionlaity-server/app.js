@@ -7,7 +7,6 @@ import users from "./usersDB.json" with { type: "json" };
 import sessions from "./sessionsDB.json" with { type: "json" };
 import dotenv from 'dotenv';
 dotenv.config();
-
 const app = express();
 const PORT = 4000;
 
