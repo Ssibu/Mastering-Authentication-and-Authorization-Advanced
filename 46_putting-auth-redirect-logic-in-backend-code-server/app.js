@@ -18,7 +18,6 @@ app.use(
 
 app.use(express.json());
 app.use(cookieParser());
-
 app.get("/auth/google", (req, res) => {
   const clientId =
     "594555697613-18p3s2o6hl7mvc3gj0o2a2bg7b27tj9m.apps.googleusercontent.com";
