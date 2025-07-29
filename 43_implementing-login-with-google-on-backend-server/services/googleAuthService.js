@@ -17,7 +17,7 @@ export async function fetchUserFromGoogle(code) {
   const data = await response.json();
   if (data.error) {
     console.log("Error occurred");
-    console.log(data);
+    console.log(data); 
     return;
   }
 
