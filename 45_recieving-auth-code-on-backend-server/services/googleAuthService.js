@@ -13,7 +13,7 @@ export async function fetchUserFromGoogle(code) {
       "Content-Type": "application/x-www-form-urlencoded",
     },
     body: payload,
-  });
+  }); 
 
   const data = await response.json();
   if (data.error) {
