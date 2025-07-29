@@ -4,7 +4,7 @@ button.addEventListener("click", () => {
   window.open(
     "http://localhost:4000/auth/google",
     "auth-popup",
-    "width=500,height=600"
+    "width=500,height=600" 
   );
 });
 
