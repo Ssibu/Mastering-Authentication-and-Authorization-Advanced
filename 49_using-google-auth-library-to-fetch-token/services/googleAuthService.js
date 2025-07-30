@@ -4,7 +4,6 @@ const clientId =
   process.env.GOOGLE_CLIENT_ID;
 const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
 const redirectUrl = process.env.GOOGLE_REDIRECT_URL;
-
 const client = new OAuth2Client({
   clientId,
   clientSecret,
