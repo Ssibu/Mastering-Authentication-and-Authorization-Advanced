@@ -26,7 +26,6 @@ export async function fetchUserFromGoogle(code) {
     idToken: tokens.id_token,
     audience: clientId,
   });
-
   const userData = loginTicket.getPayload();
   console.log(userData);
   return userData;
