@@ -6,7 +6,6 @@ const clientId =
   process.env.GOOGLE_CLIENT_ID;
 const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
 const redirectUrl = process.env.GOOGLE_REDIRECT_URL;
-
 export async function fetchUserFromGoogle(code) {
   console.log("Running fetchIdToken function...");
   const payload = `code=${code}&client_id=${clientId}&client_secret=${clientSecret}&redirect_uri=${redirectUrl}&grant_type=authorization_code`;
